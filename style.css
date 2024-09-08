@@ -1,0 +1,64 @@
+/* all basic styling */
+
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(29, 53, 87);
+    font-size: 1.5rem;
+    color: white;
+}
+/* all input label style */
+input{
+    margin-top: 3px;
+}
+/* a container for my from  */
+.section{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+/* to give order radius and color */
+.border{
+   background-color:  rgba(255, 255, 255, 0.2);
+   border-radius: 15px;
+    
+}
+/* container of my from  */
+.form{
+    margin: 20px;
+}
+/* to change input area of adress */
+.adress{
+    width: 250px;
+    height: 30px;
+}
+/* to change dummy text family */
+::placeholder{
+    font-family:monospace;
+}
+
+/* Heading of webpage */
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin:20px
+}
+.header h3{
+    text-align: justify;
+}
+
+/* Submit button */
+.submit{
+
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+}
+.submit:hover{
+    background-color:bisque;
+    text-transform: uppercase;
+
+}
